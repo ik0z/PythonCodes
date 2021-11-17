@@ -1,0 +1,13 @@
+import ctypes, sys
+def checkpriv():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
+if checkpriv():
+    # Code of your program here
+    print("Yes u have it")
+else :
+    # Re-run the program with admin rights
+    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
+    print("we admin now 0_0 ! ")
