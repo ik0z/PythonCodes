@@ -22,7 +22,7 @@ loghead = {
     'sec-fetch-dest': 'empty',
     'sec-fetch-mode': 'cors',
     'sec-fetch-site': 'same-origin',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.112.112.111 Safari/537.36',
     'x-csrftoken': 'JcuJvUzrOI7CPnkJshUS4YkNIsgDnkNg',
     'x-requested-with': 'XMLHttpRequest',
 
