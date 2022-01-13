@@ -1,4 +1,4 @@
-This repo to make OpenVPN with remotly control [ YOU don't need login to start & stop EC2 ] : 
+This repo to make OpenVPN with remotly control [ YOU don't need login to start & stop EC2 instances ] : 
 
 
 # AWS Instance Part : 
