@@ -32,4 +32,10 @@ python3 ec2controller.py --help
 python3 control_Panel.py 
 ```
 
+
+
+
+![alt text](https://raw.githubusercontent.com/ik0z/PythonCodes/main/AWScontroler/ex.png)
+
+
 Enjoy 
