@@ -115,10 +115,18 @@ def clearContacts():
         print("done !")
     else :
         print("Failed to clear")
+
+#---------------- Count the user in the contacts
+
+def countusers() : 
+    print("The total users :",len(phonebook.keys()))
+    print("The total numbers :",len(phonebook.values())) 
+    print("\n")
 #---------------- Execute program     
 
 while True : 
     menu()
+    countusers()
     try : 
         selectOp = int(input("Enter your choice :"))
         if selectOp == 1 : 
